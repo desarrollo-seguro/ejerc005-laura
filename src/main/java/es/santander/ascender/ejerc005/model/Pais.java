@@ -16,10 +16,10 @@ public class Pais {
     @Column(name = "nombre", nullable = false, unique = true)
     private String nombre;
 
-    @Column(name = "descripcion", nullable = false, unique = true)
+    @Column(name = "descripcion", nullable = false)
     private String descripcion;
 
-    @Column(name = "continente", nullable = false, unique = true)
+    @Column(name = "continente", nullable = false)
     private String continente;
 
     public Long getId() {
